@@ -39,7 +39,8 @@ const en = {
     "menu4-2": "menu4-2",
     "menu5-1": "menu5-1",
     systemSettings: "systemSettings",
-    navMenu: "navMenu"
+    navMenu: "navMenu",
+    datasets: "datasets"
   },
   rightMenu: {
     close: "close",

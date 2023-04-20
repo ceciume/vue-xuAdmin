@@ -38,7 +38,8 @@ const cn = {
     "menu4-2": "四级-2",
     "menu5-1": "五级-1",
     systemSettings: "系统设置",
-    navMenu: "导航菜单"
+    navMenu: "导航菜单",
+    datasets: "数据集"
   },
   rightMenu: {
     close: "关闭",

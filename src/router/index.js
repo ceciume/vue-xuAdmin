@@ -27,6 +27,7 @@ const AddArticleEditor = () => import("@/views/article/addArticleEditor")
 const NavClassify = () => import("@/views/syssetting/navClassify")
 const pagePermissions = () => import("@/views/permissions/pagePermissions")
 const btnPermissions = () => import("@/views/permissions/btnPermissions")
+const Datasets = () => import("@/views/datasets/datasets")
 
 /**
  * 重写路由的push方法
@@ -95,6 +96,21 @@ let addRouter = [
         name: routeName.publishArticleEditor,
         hidden: true,
         component: AddArticleEditor,
+        children: []
+      }
+    ]
+  },
+  {
+    path: "/",
+    iconCls: "el-icon-files", // 图标样式class
+    name: routeName.datasets,
+    component: Layout,
+    children: [
+      {
+        path: "/datasets",
+        iconCls: "el-icon-cloudy", // 图标样式class
+        name: routeName.datasets,
+        component: Datasets,
         children: []
       }
     ]
